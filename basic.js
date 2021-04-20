@@ -36,6 +36,8 @@ var [x,y] = ['a','b'];//equals to var x = 'a',var y = 'b'
 //进行值交换
 [x,y] = [y,x]
 
+var testChangeObj = {a:'a'};
+var {a:b} = testChangeObj;//把a的值赋给b（并声明了b这个变量）
 console.log("x:",x,"y:",y)
 
 
